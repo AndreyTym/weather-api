@@ -1,0 +1,37 @@
+.weather__block {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 50px; */
+    width: 17rem;
+    font-size: 2rem;
+    position: relative;
+    top: 0;
+    right: -160px;
+  
+    opacity: 0.8;
+  }
+  .weather-icon {
+    flex: 0 0 10px;
+  }
+  .weather__block_city {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .date {
+    font-size: 4rem;
+  }
+  
+  .time {
+    font-size: 8rem;
+  }
+  
+  h1 {
+    margin-bottom: 4rem;
+  }
+  
+  h2 {
+    margin-bottom: 2rem;
+    opacity: 0.8;
+  }
